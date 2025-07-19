@@ -12,7 +12,7 @@ the environment variable **REMOTE_HOST** is used to set the full URL of the serv
 
 # Important things
 The code is not polished or nearly production ready. It misses all the features of a proper software projects like unit tests, proper observability etc.
-The agent decided which libraries to use and which approach to use to structure the code and handle the errors. No manual edits to the !
-It kinda works (a lot of stuff missing) but I have run out of free token for today so no more AI interaction :)
+The agent decided which libraries to use and which approach to use to structure the code and handle the errors. No manual edits to the code!
+It kinda works (a lot of stuff missings) but I have run out of free token for today so no more AI interaction :)
 
 **DON'T USE THIS IN PRODUCTION**
