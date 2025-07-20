@@ -8,11 +8,12 @@ cargo build
 REMOTE_HOST=www.google.com:80/ target/debug/vibes-reverse-proxy
 ```
 
-the environment variable **REMOTE_HOST** is used to set the full URL of the server where your requests should be routed
+the environment variable **REMOTE_HOST** is used to set the full URL of the server where your requests should be routed. 
+If everything worked after running the binary it starts listening for incoming HTTP connections on **0.0.0.0:8080**
 
 # Important things
 The code is not polished or nearly production ready. It misses all the features of a proper software projects like unit tests, proper observability etc.
 The agent decided which libraries to use and which approach to use to structure the code and handle the errors. No manual edits to the code!
-It kinda works (a lot of stuff missings) but I have run out of free token for today so no more AI interaction :)
+It kinda works (a lot of missing stuff) but I have run out of free tokens for today so no more AI interaction :)
 
 **DON'T USE THIS IN PRODUCTION**
