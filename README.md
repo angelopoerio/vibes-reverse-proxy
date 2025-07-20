@@ -9,7 +9,8 @@ REMOTE_HOST=www.google.com:80/ target/debug/vibes-reverse-proxy
 ```
 
 the environment variable **REMOTE_HOST** is used to set the full URL of the server where your requests should be routed. 
-If everything worked after running the binary it starts listening for incoming HTTP connections on **0.0.0.0:8080**
+
+If everything worked after running the binary it will start listening for incoming HTTP connections on **0.0.0.0:8080**
 
 # Important things
 The code is not polished or nearly production ready. It misses all the features of a proper software projects like unit tests, proper observability etc.
